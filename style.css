@@ -62,11 +62,11 @@
     width: 100%;
   }
 
-  .form{
+  .forma{
     position: absolute;
-    background: rgb(88,79,249);
-    background: linear-gradient(90deg, rgba(88,79,249,1) 0%, rgba(83,83,254,1) 30%, rgba(205,0,255,1) 64%);
-    border-radius: 100% 0% 52% 48% / 64% 92% 8% 36%  ;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(33,208,30,1) 100%);
+    border-radius: 100% 0% 50% 50% / 86% 100% 0% 14%;
     width: 650px;
     height: 800px;
     margin: 1 auto;
@@ -86,4 +86,49 @@
 
   }
   
-  
+  .presentation{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    }
+    
+    .content{
+        font-family: Calibri;
+        position: absolute;
+        align-items: center;
+        text-align: justify;
+    
+    }
+    
+    .lista{
+        font-family: Calibri;
+        font-size: 30px;
+    }
+    
+    .hobbies{
+        left: 200px;
+        top: 700px;
+        position: absolute;
+        font-family: Arial;
+        font-size: 20px;
+    }
+    
+    
+    .boton {
+        background-image: linear-gradient(to right, #2e20aa 0%, #16af2f  51%, #000000  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        display: block;
+      }
+    
+      .boton:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+      }
