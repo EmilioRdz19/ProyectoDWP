@@ -5,7 +5,85 @@
   }
   
   body {
-    background: #292929;
+    background: #ffffff;
     font-family: 'calibri';
   }
+  
+  header {
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+  }
+  
+  .menu {
+    width: 900px;
+    margin: 1 auto;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding: 8px;
+  
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+  .form{
+    position: absolute;
+    background: rgb(88,79,249);
+    background: linear-gradient(90deg, rgba(88,79,249,1) 0%, rgba(83,83,254,1) 30%, rgba(205,0,255,1) 64%);
+    border-radius: 100% 0% 52% 48% / 64% 92% 8% 36%  ;
+    width: 650px;
+    height: 800px;
+    margin: 1 auto;
+    left: 1200px;
+    bottom: 90px;
+}
+
+.checo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    left: 1400px;
+  }
+  .checo {
+    z-index: 1;
+
+  }
+  
   
